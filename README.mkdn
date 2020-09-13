@@ -15,7 +15,7 @@ $ mkdir WORKSPACE
 $ cd WORKSPACE
 
 # Install Repo in the created directory
-$ repo init -u https://github.com/PixelPlusUI/manifest -b ten
+$ repo init -u https://github.com/PPUI-Wip/manifest -b 11
 
 # Download the source
 $ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
